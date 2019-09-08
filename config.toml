@@ -1,0 +1,27 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-theme-nix"
+
+
+[params]
+  Name = "Dwayne McDaniel"
+  HeaderUsername = "mcdwayne"
+  HeaderHostname = "dwaynemcdaniel"
+  About = "info about me1234"
+  ProfilePicture = "https://processdigitalconsulting.com/static/Headshot-square-702a08529ca885e488e9e6d85fc895a8.webp"
+  Email = "1dwayne.mcdaniel@gmail.com"
+  GithubID = "mcdwayne"
+  InstagramID = "mcdwayne_real"
+  LinkedInID = "dwaynemcdaniel"
+  TwitterID = "mcdwayne"
+
+[menu]
+  [[menu.header]]
+    name = "post"
+    weight = 0
+    url = "/post"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "/about"
