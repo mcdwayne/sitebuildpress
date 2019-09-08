@@ -4,27 +4,16 @@ date: 2019-09-08T09:40:31-07:00
 
 ---
 
-Hugo is a static site engine written in Go.
-
-
-It makes use of a variety of open source projects including:
-
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+<div class="container wrapper">
+			<div class="row">
+				<div class="col-sm-3 col-centered">
+					<img alt="profile-picture" class="img-responsive img-circle user-picture center-block" src="/images/IMG_8971.jpg">
+				</div>
+			</div>
+            <div class="row">
+            <div class="align-self-center about-description ">
+            Since 2006, Dwayne McDaniel has been driven by a passion for open source technology and for getting things done. In 2019 Dwayne saw an opportunity to share the skills he developed over a multitude of projects and organizations with the world.
+           From technical consulting on specific platforms to full process and workflow optimizations, Process Digital Consulting is ready to help your organization today! Contact us today to get on your way toward better processes and better results.
+            </div>
+      
+</div>

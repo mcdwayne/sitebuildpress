@@ -15,22 +15,37 @@
 					<img alt="profile-picture" class="img-responsive img-circle user-picture center-block" src="{{.}}">
 				</div>
 			</div>
+			<div class="row">
+			  <div class="pdc-brand col-centered col-sm-3">
+			  <a href="https://processdigitalconsulting.com/"><img alt="Process Digital Consulting Logo" class="pdc-logo img-responsive" src="https://processdigitalconsulting.com/static/pdc-logo-svg-b3e3db3dc991ac5266528c09a5f20370.svg"></a>
+			   </div>
+ 	         </div>
+
 			{{ end }}
 			<div class="row">
 				<div class="col-xs-12 user-profile text-center">
 					<h1 id="user-name">{{ .Site.Params.Name }}</h1>
 				</div>
 			</div>
+
 			<div class="row">
-				<div class="col-xs-12 user-social text-center">
-				{{ partial "social.html" . }}
+				<div class="align-self-center user-description text-center">
+					<div class="text-center">
+					 <p class="text-center" > {{ .Site.Params.About1 }}</p>
+				    </div>
+					<div class="text-center">
+					 <p class="text-center" >{{ .Site.Params.About2 }}</p>
+				    </div>
+				    
+					 <p class="text-center" >{{ .Site.Params.About3 }}</p>
+					
 				</div>
 			</div>
 			<div class="row">
-				<div class="justify-content-center user-description text-center">
-					<p>{{ .Site.Params.About }}</p>
+					<div class="col-xs-12 user-social text-center">
+					{{ partial "social.html" . }}
+					</div>
 				</div>
-			</div>
 			<div class="push"></div>
 		</div>
 		{{ partial "footer.html" . }}
