@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-09-08T09:40:31-07:00
-draft: true
+
 ---
 
 Hugo is a static site engine written in Go.

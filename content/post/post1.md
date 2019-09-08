@@ -1,7 +1,7 @@
 ---
 title: "Post1"
 date: 2019-09-08T09:41:05-07:00
-draft: true
+
 ---
 
 
