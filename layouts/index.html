@@ -8,18 +8,23 @@
 	</head>
 	<body>
 		{{ partial "header.html" . }}
-		<div class="container wrapper">
+		<div class="container wrapper ">
 			{{ with .Site.Params.ProfilePicture }}
 			<div class="row">
-				<div class="col-sm-3 col-centered">
+				<div class="col-md-2 profile-image mr-auto">
 					<img alt="profile-picture" class="img-responsive img-circle user-picture center-block" src="{{.}}">
 				</div>
-			</div>
-			<div class="row">
-			  <div class="pdc-brand col-centered col-sm-3">
-			  <a href="https://processdigitalconsulting.com/"><img alt="Process Digital Consulting Logo" class="pdc-logo img-responsive" src="https://processdigitalconsulting.com/static/pdc-logo-svg-b3e3db3dc991ac5266528c09a5f20370.svg"></a>
-			   </div>
- 	         </div>
+		
+			
+			 <div class="pdc-brand col-md-2">
+			  <ul style="list-style: none;">
+				<li><a href="https://processdigitalconsulting.com/"><img alt="Process Digital Consulting Logo" class="pdc-logo img-responsive" src="https://processdigitalconsulting.com/static/pdc-logo-svg-b3e3db3dc991ac5266528c09a5f20370.svg"></a></li>
+				<li>
+						<a href="https://processdigitalconsulting.com/"><img alt="Process Digital Consulting Logo" class="pdc-logo img-responsive" src="https://processdigitalconsulting.com/static/pdc-logo-svg-b3e3db3dc991ac5266528c09a5f20370.svg"></a>
+				</li>
+			  </ul>
+			 </div>
+ 	        
 
 			{{ end }}
 			<div class="row">
@@ -47,6 +52,7 @@
 					</div>
 				</div>
 			<div class="push"></div>
+		</div>
 		</div>
 		{{ partial "footer.html" . }}
 	</body>
