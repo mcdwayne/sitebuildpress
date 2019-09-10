@@ -1,6 +1,6 @@
-baseURL = "https://jovial-lalande-4b5e6c.netlify.com"
+baseURL = "https://dwayne-mcdaniel.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Dwayne McDaniel's Personal Blog"
 theme = "hugo-theme-nix"
 
 
