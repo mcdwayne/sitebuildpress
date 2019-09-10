@@ -93,7 +93,11 @@ i {
 	padding: 0 5px 0 5px;
 }
 
-.post-summary, .post-content{
+.post-summary {
+	clear: both;
+}
+
+.post-content{
 	clear: both;
 	font-size: 150%;
 
