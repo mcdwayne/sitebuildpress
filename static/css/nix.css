@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .user-description {
-	border-top: solid;
+	/* border-top: solid; */
 	border-bottom: solid;
 	border-width: 5px;
 	border-color: #292929;
@@ -175,4 +175,8 @@ td {
 	border-width: 5px;
 	border-color: #292929;
 	max-width: 25%;
+}
+
+.b1 {
+
 }

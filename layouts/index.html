@@ -9,6 +9,11 @@
 	<body>
 		{{ partial "header.html" . }}
 		<div class="container wrapper ">
+				<div class="row">
+						<div class="col-xs-12 user-profile text-center">
+							<h1 id="user-name">{{ .Site.Params.Name }}</h1>
+						</div>
+					</div>
 			{{ with .Site.Params.ProfilePicture }}
 			<div class="row">
 				<div class="col-md-2 profile-image mr-auto">
@@ -18,20 +23,16 @@
 			
 			 <div class="pdc-brand col-md-2">
 			  <ul style="list-style: none;">
-				<li><a href="https://processdigitalconsulting.com/"><img alt="Process Digital Consulting Logo" class="pdc-logo img-responsive" src="https://processdigitalconsulting.com/static/pdc-logo-svg-b3e3db3dc991ac5266528c09a5f20370.svg"></a></li>
-				<li>
-						<a href="https://processdigitalconsulting.com/"><img alt="Process Digital Consulting Logo" class="pdc-logo img-responsive" src="https://processdigitalconsulting.com/static/pdc-logo-svg-b3e3db3dc991ac5266528c09a5f20370.svg"></a>
+				<li class="b1"><a href="https://processdigitalconsulting.com/"><h2>Process Digital Consulting </h2><img alt="Process Digital Consulting Logo" class="pdc-logo img-responsive" src="/images/pdc-logo.svg"> </a> </li>
+				<li class="b1">
+						<a href="https://mcdwayne.com"><h2>Dwayne's WordCamp and DrupalCamp Recap Blog</h2><img alt="Mcdayne.com logo" class="pdc-logo img-responsive" src="/images/dwaynemic.jpeg"></a>
 				</li>
 			  </ul>
 			 </div>
  	        
 
 			{{ end }}
-			<div class="row">
-				<div class="col-xs-12 user-profile text-center">
-					<h1 id="user-name">{{ .Site.Params.Name }}</h1>
-				</div>
-			</div>
+
 
 			<div class="row">
 				<div class="align-self-center user-description text-center">
