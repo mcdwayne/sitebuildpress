@@ -9,8 +9,8 @@ theme = "hugo-theme-nix"
   HeaderUsername = "mcdwayne"
   HeaderHostname = "dwaynemcdaniel"
   About1 = "Dwayne McDaniel is an Open Source enthusiast focused on process improvement for growing teams."
-  About2 = "He loves providing training and helping people get the most out of technology."
-  About3 = "He also can help you with your WordPress, Drupal and other Open Source web projects."
+  About2 = "He loves providing training and helping people get the most out of technology. He also can help you with your WordPress, Drupal and other Open Source web projects."
+  About3 = "This is his personal and technology related blog."
   ProfilePicture = "/images/IMG_8840.jpg"
   Email = "dwayne@processdigitalconsulting.com"
   GithubID = "mcdwayne"
@@ -18,12 +18,9 @@ theme = "hugo-theme-nix"
   LinkedInID = "dwaynemcdaniel"
   TwitterID = "mcdwayne"
 
+
 [menu]
   [[menu.header]]
     name = "posts"
     weight = 0
     url = "/posts"
-  [[menu.header]]
-    name = "about"
-    weight = 1
-    url = "/about"

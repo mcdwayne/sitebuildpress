@@ -62,6 +62,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .user-profile {
 	padding: 0;
+	
+	
 }
 
 .user-picture {
@@ -93,6 +95,9 @@ i {
 
 .post-summary, .post-content{
 	clear: both;
+	font-size: 150%;
+
+
 }
 
 .post-summary {
@@ -122,10 +127,7 @@ i {
 
 .wrapper {
 	min-height: 100%;
-	margin: 0 auto -50px;
-	
-	
-	
+	margin: 0 auto -50px;	
 }
 
 .footer {
@@ -163,11 +165,15 @@ td {
 .pdc-brand {
 	order: 2;
 	width: 40%;
+
 	
 }
 .profile-image {
 	order: 1;
 	width: 60%;
+	text-align: center
+
+
 	
 }
 .about-picture {
@@ -180,3 +186,30 @@ td {
 .b1 {
 
 }
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.pdc-brand {
+		order: 2;
+		width: 60%;
+		margin: 0 auto !important;
+		
+	}
+	.profile-image {
+		order: 1;
+		width: 60%;
+		margin: 0 auto !important;
+	
+		
+	}
+}
+  
+.welcome-font {
+	font-size: 1.2em;
+	font-family: 'Caveat', cursive;
+	text-align: left;
+	padding: 3%;
+
+
+}
+
