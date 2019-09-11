@@ -191,13 +191,13 @@ td {
 	/* For mobile phones: */
 	.pdc-brand {
 		order: 2;
-		width: 60%;
+		width: 50%;
 		margin: 0 auto !important;
 		
 	}
 	.profile-image {
 		order: 1;
-		width: 60%;
+		width: 50%;
 		margin: 0 auto !important;
 	
 		
