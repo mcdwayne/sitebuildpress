@@ -1,17 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jovial-lalande-4b5e6c.netlify.com/categories/</loc>
+    <loc>https://dwayne-mcdaniel.com/posts/</loc>
+    <lastmod>2019-09-17T12:22:09-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jovial-lalande-4b5e6c.netlify.com/</loc>
+    <loc>https://dwayne-mcdaniel.com/posts/why-i-build-dumb-things/</loc>
+    <lastmod>2019-09-17T12:22:09-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jovial-lalande-4b5e6c.netlify.com/tags/</loc>
+    <loc>https://dwayne-mcdaniel.com/posts/old-friends-are-the-best/</loc>
+    <lastmod>2019-09-11T08:32:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dwayne-mcdaniel.com/posts/first-new-post/</loc>
+    <lastmod>2019-09-09T21:56:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dwayne-mcdaniel.com/</loc>
+    <lastmod>2019-09-08T09:40:31-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dwayne-mcdaniel.com/portfolio/</loc>
+    <lastmod>2019-09-08T09:40:31-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dwayne-mcdaniel.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dwayne-mcdaniel.com/tags/</loc>
   </url>
   
 </urlset>

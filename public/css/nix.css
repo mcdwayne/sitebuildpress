@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+
 }
 
 html {
@@ -49,25 +50,29 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .user-description {
-	border-style: solid;
+	/* border-top: solid; */
+	border-bottom: solid;
 	border-width: 5px;
 	border-color: #292929;
 	margin-top: 20px;
 	margin-bottom: 1em;
 	padding: 15px;
-	font-size: initial;
+	font-size: 1.5em;
 }
 
 .user-profile {
 	padding: 0;
+	
+	
 }
 
 .user-picture {
 	border-style: solid;
 	border-width: 5px;
 	border-color: #292929;
-	margin-top: 20px;
-}
+	max-width: 50%;
+}	
+
 
 i {
 	margin: 10px 20px 10px 20px;
@@ -88,8 +93,15 @@ i {
 	padding: 0 5px 0 5px;
 }
 
-.post-summary, .post-content{
+.post-summary {
 	clear: both;
+}
+
+.post-content{
+	clear: both;
+	font-size: 150%;
+
+
 }
 
 .post-summary {
@@ -114,12 +126,12 @@ i {
 
 .post-comments {
 	padding-top: 10px;
-	border-top-style: solid;
+	/* border-top-style: solid; */
 }
 
 .wrapper {
 	min-height: 100%;
-	margin: 0 auto -50px;
+	margin: 0 auto -50px;	
 }
 
 .footer {
@@ -146,3 +158,58 @@ div p {
 td {
 	margin: 0 20px 0 20px;
 }
+
+
+.about-description {
+	margin-top: 20px;
+	margin-bottom: 1em;
+	padding: 15px;
+	font-size: 1.5em;
+}
+.pdc-brand {
+	order: 2;
+	width: 40%;
+
+	
+}
+.profile-image {
+	order: 1;
+	width: 60%;
+	text-align: center
+
+
+	
+}
+.about-picture {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #292929;
+	max-width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.pdc-brand {
+		order: 2;
+		width: 50%;
+		margin: 0 auto !important;
+		
+	}
+	.profile-image {
+		order: 1;
+		width: 50%;
+		margin: 0 auto !important;
+	
+		
+	}
+}
+  
+.welcome-font {
+	font-size: 1.2em;
+	font-family: 'Caveat', cursive;
+	text-align: left;
+	padding: 3%;
+
+
+}
+

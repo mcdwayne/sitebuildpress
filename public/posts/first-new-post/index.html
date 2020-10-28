@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Welcome to my new blog &middot; Dwayne McDaniel&#39;s Personal Blog </title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://dwayne-mcdaniel.com/css/nix.css">
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+
+
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" id="green-terminal" href=https://dwayne-mcdaniel.com>mcdwayne@dwaynemcdaniel ~ $</a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="https://dwayne-mcdaniel.com">/home/mcdwayne</a>
+				</li>
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="/posts">~/posts</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="container wrapper">
+            <h1><a href="https://dwayne-mcdaniel.com/posts/first-new-post/">Welcome to my new blog</a></h1>
+            <span class="post-date">Sep 9, 2019 </span>
+            <div class="post-content">
+                <p>You might be wondering why I built this site. And if you know me, you might be wondering why I am starting yet another blog. I hope to answer those fully in this first post and there are basically 2 main reasons.</p>
+<h2 id="1-i-wanted-to-build-a-new-site-based-on-a-static-site-generator">1. I wanted to build a new site based on a static site generator</h2>
+<p>I have been fascinated by <a href="https://jamstack.org/">JAMStack</a> for a long while now. There is fundamental question about &ldquo;do we need a DB for most use cases anymore?&rdquo; that I have struggled with for a while now. A quick look see through my <a href="https://github.com/mcdwayne">GitHub account</a> will reveal a slew of things I have looked at, from flat HTML to GatsbyJS, both of which I run in production.</p>
+<p>Nothing really seemed like the solution I was looking for for a new blog. NPM libraries for a site build kinda got me down to be honest.  Then, out of nowhere, this tweet I started down a rabbit hole from which this site was born:</p>
+<!-- raw HTML omitted -->
+<h3 id="hugo--netlifyhttpsgohugoiohosting-and-deploymenthosting-on-netlify-is-freaking-awesome"><a href="https://gohugo.io/hosting-and-deployment/hosting-on-netlify/">Hugo + Netlify</a> is freaking awesome!</h3>
+<p>First of all, <a href="https://gohugo.io/">Hugo</a> is based on the Go language, which is build from concept on up for scale and speed. As I dig into Hugo, I am learning more Go as I go along. That is not likely a bad thing.</p>
+<p>Second of all, theming is downright fun. I am not even joking. I have delighted in figuring out the few things I have while overriding one of <a href="https://themes.gohugo.io/">the many themes you can get off the shelf</a>. Leveraging Bootstrap and very minimal JS makes this as fun to work on as old school Geocities in my opinion, but with plenty of room to get fancy if I need to. But I don&rsquo;t think I will need to, given the notion of this blog.</p>
+<p>Deploying is also the same process as pushing to github. Unlike a few other projects I have tried where version control and deployments are not interdependent, the arrangement with Netlify means <code>git push origin master</code> is all I need to kick of the less than 30 second process to update my site.  I did investigate a 100% github based solution relying on Hugo&rsquo;s build process locally but it is not nearly as slick or simple as Netlify&rsquo;s.</p>
+<p>But maybe my favorite part though, is I am writing this post in Markdown, in my terminal while the hugo server is running and showing me the build every time I save the file. Below is a screenshot of how I made this post:</p>
+<p><img src="https://i.imgur.com/6z0eCtr.png" alt="screenshot of visual studio code open with 3 files open and a terminal running hugo server"></p>
+<h2 id="2-i-need-a-place-to-organize-my-thoughts-outside-of-my-other-writing-projects">2. I need a place to organize my thoughts outside of my other writing projects</h2>
+<p>Currently I have two ongoing writing projects for my current brands:</p>
+<ol>
+<li><a href="https://www.mcdwayne.com/">Public speaker in the WordPress and Drupal communities, mcdwayne.com</a>, and</li>
+<li>My newest outing, the <a href="https://www.linkedin.com/in/dwaynemcdaniel/detail/recent-activity/posts/">LinkedIn blog for Process Digital Consulting</a></li>
+</ol>
+<p>My mcdwayne project started as a personal blog, but in late 2016 I realized I needed a way to track my life of constant travel to dozens of events per year. What it has become is a formulaic review of WordCamps and DrupalCamps so I can sort out in the future what I did at the 100+ events I have participated in since 2016.  There are a few personal posts tossed in but mostly I have kept the scope to my life working in the Drupal and WordPress space.</p>
+<p>My blog for <a href="https://processdigitalconsulting.com">Process Digital Consulting</a> is a tool for me to sort through my thoughts on process management, with a goal of developing content channels from what I sort out. No real room there for personal thoughts that waft through my mind outside of the lense of process optimization.</p>
+<p>This blog is meant to be my personal thoughts without binding it to what I do for a living. I felt I needed a place for random technology tinkering notes or crochet or whatever is on my mind in general.  This is what I used to use MySpace and Facebook for before one went away and I quit the other.</p>
+<h2 id="how-often-will-i-update-what-will-i-write-about-next">How often will I update? What will I write about next?</h2>
+<p>I have no idea about these questions right now. I did not intend to create a personal blog when I started, but the more I thought on it, the more I realized I wanted to do just that. I will be here writing and likely pushing out notices on <a href="https://twitter.com/McDwayne">twitter when I do update</a>.</p>
+<p>Always happy to talk about just about anything, feel free to reach out.</p>
+
+            </div>
+            
+            <div class="post-comments">
+                
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        <footer class="footer text-center">
+<p>Copyright &copy; 2020 Dwayne McDaniel -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+    </body>
