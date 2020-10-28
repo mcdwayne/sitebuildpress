@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Dwayne McDaniel&#39;s Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Sep 2019 12:22:09 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2020 23:37:30 -0500</lastBuildDate>
     
 	<atom:link href="https://dwayne-mcdaniel.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nextjs Conf 2020</title>
+      <link>https://dwayne-mcdaniel.com/posts/nextjs-conf-2020/</link>
+      <pubDate>Tue, 27 Oct 2020 23:37:30 -0500</pubDate>
+      
+      <guid>https://dwayne-mcdaniel.com/posts/nextjs-conf-2020/</guid>
+      <description>The NextJS Conference 2020: 70K registered and saw so many people on Discord A new blog for a new leg of my journey I am super excited to write my first personal blog post about my experiences at a conference in my new industry: the first ever NextJS Conference! This was by far the largest virtual event I have taken part in and it was super well organized and flowed really well.</description>
+    </item>
     
     <item>
       <title>Why I Build Dumb Things</title>

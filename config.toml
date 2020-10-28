@@ -9,7 +9,7 @@ theme = "hugo-theme-nix"
   HeaderUsername = "mcdwayne"
   HeaderHostname = "dwaynemcdaniel"
   About1 = "Dwayne McDaniel is an Open Source enthusiast focused on helping developer and marketers realize the potential of the Jamstack."
-  About3 = "This is his personal and technology related blog."
+  About3 = "Read my personal tech blog"
   Welcomemsg = """
 						I only hope I can inspire folks the way I have been inspired by so many others. 
 -- Dwayne
