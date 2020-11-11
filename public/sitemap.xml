@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dwayne-mcdaniel.com/posts/nextjs-conf-2020/</loc>
-    <lastmod>2020-10-27T23:37:30-05:00</lastmod>
+    <loc>https://dwayne-mcdaniel.com/posts/</loc>
+    <lastmod>2020-11-11T13:45:53-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dwayne-mcdaniel.com/posts/</loc>
+    <loc>https://dwayne-mcdaniel.com/posts/veterans-day-agiltycms-nextjs/</loc>
+    <lastmod>2020-11-11T13:45:53-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dwayne-mcdaniel.com/posts/nextjs-conf-2020/</loc>
     <lastmod>2020-10-27T23:37:30-05:00</lastmod>
   </url>
   

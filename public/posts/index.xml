@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Dwayne McDaniel&#39;s Personal Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2020 23:37:30 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2020 13:45:53 -0600</lastBuildDate>
     
 	<atom:link href="https://dwayne-mcdaniel.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Veterans Day, testing out AgiltyCMS and manually deploying my first Netxt.js site anyhow</title>
+      <link>https://dwayne-mcdaniel.com/posts/veterans-day-agiltycms-nextjs/</link>
+      <pubDate>Wed, 11 Nov 2020 13:45:53 -0600</pubDate>
+      
+      <guid>https://dwayne-mcdaniel.com/posts/veterans-day-agiltycms-nextjs/</guid>
+      <description>I took most of Veterans Day off. I did not serve in the military myself, instead doing civil service through Americorps, but I am grateful for those who did go off to war and defend the ideals I get to enjoy. I like to review history of service on this day. Learning from history will hopefully help us all avoid mistakes in the future. So I canceled all my meeting and dedicated some time to reflection.</description>
+    </item>
     
     <item>
       <title>Nextjs Conf 2020</title>

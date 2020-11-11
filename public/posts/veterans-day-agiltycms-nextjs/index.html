@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Veterans Day, testing out AgiltyCMS and manually deploying my first Netxt.js site anyhow &middot; Dwayne McDaniel&#39;s Personal Blog </title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://dwayne-mcdaniel.com/css/nix.css">
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" rel="stylesheet">
+
+
+
+
+
+
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" id="green-terminal" href=https://dwayne-mcdaniel.com>mcdwayne@dwaynemcdaniel ~ $</a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="https://dwayne-mcdaniel.com">/home/mcdwayne</a>
+				</li>
+				
+				
+				<li class="dropdown">
+                    
+            		<a href="/posts">~/posts</a>
+            		
+        		</li>
+        		
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="container wrapper">
+            <h1><a href="https://dwayne-mcdaniel.com/posts/veterans-day-agiltycms-nextjs/">Veterans Day, testing out AgiltyCMS and manually deploying my first Netxt.js site anyhow</a></h1>
+            <span class="post-date">Nov 11, 2020 </span>
+            <div class="post-content">
+                <p>I took most of Veterans Day off. I did not serve in the military myself, instead doing civil service through <a href="https://www.redcross.org/local/california/los-angeles/volunteer/americorps.html">Americorps</a>, but I am grateful for those who did go off to war and defend the ideals I get to enjoy. I like to review history of service on this day. Learning from history will hopefully help us all avoid mistakes in the future. So I canceled all my meeting and dedicated some time to reflection.</p>
+<h2 id="a-reddit-rabbit-hole">A Reddit rabbit hole</h2>
+<p>I also used the day to catch up on some reading from all the bookmarks I have been making lately. I was catching up on Reddit and came across a post that at first <a href="https://www.reddit.com/r/JAMstack/comments/jrz0wq/quick_nextjs_blog_starter_with_automatic/">seemed like a dev who found a neat tool</a>:</p>
+<blockquote>
+<p>Quick next.js blog starter with automatic deployment to Vercel and Preview
+Hello! 📷 I just tried this quick next.js blog starter with automatic deployment to Vercel with headless CMS and Preview amd Page Management and boom Published - Live! wow it made me feel smart and efficient so fast :)))) 📷 just wanted to share&hellip; 📷 <a href="https://agilitycms.com/starters">https://agilitycms.com/starters</a></p>
+</blockquote>
+<p>Then I noticed this was published by u/agility-cms. And I thought &ldquo;OK, maybe this is a pull from a testimonial&rdquo;, so I clicked the link, read a little more.  When I could not find that quote anywhere on that page or on that site, a little suspicion set in that this might not be a legit quote. But I work in the world of marketing and decided to just try it for myself.</p>
+<h2 id="overwhelmed-by-options">Overwhelmed by options</h2>
+<p>The link provided actually took me to a screen that made me choose between <a href="https://nextjs.org/">Next.js</a> and <a href="https://www.gatsbyjs.com/">Gatsby</a> for my blog site. Clicking on either took me to a landing page with a preview of the theme. From there it was to another page to generate the needed repository.</p>
+<p>As I was about to generate the repo, I noticed I could select other <a href="https://jamstack.org/generators/">SSGs</a>. Like a LOT of them; 29 static site generators listed plus an &lsquo;other&rsquo; option. I had already picked Next.js when I read the Reddit post. Then I had to choose between Gatsby and Next. And then this many options? I love the freedom of choice but this overwhelmed me. As a curious person I started opening new tabs and reading about things like <a href="https://jamstack.org/generators/sapper/">Sapper</a>, <a href="https://jamstack.org/generators/docusaurus/">Docusaurus 1 and 2</a>, <a href="https://jamstack.org/generators/middleman/">Middleman</a> and a few others I had not run across yet.  Not going to count these side adventures in my overall time estimate for building a site.</p>
+<p>As a tinkerer I am a little torn on this point. If I was a dev for a real project, I would just ignore all the others. But as someone trying to learn all I can I was sent on a path of learning many new things while I was attempting to focus on one thing.  There is good and bad to this.</p>
+<p>Next, I generated a new repo. No issues.</p>
+<p>After that, I created a <a href="https://vercel.com/">Vercel</a> account to &lsquo;install on my Github account&rsquo;? I have granted read/write permissions before for other services, but I wondered &lsquo;what is it going to install exactly?&rsquo; Maybe just poor wording? It seems on par with permissions I gave to Netlify, so i went to click Confirm.</p>
+<p>But at the bottom of the screen was &ldquo;User Permission - Read access to emails&rdquo;.  I supposed from an automation standpoint this makes sense as emails contain sometimes needed auth codes but I am not sure I am comfortable with this. Only options are cancel or install.  Dear reader, I hit install without stopping to search for what this means and what security issues might happen.</p>
+<p><img src="https://i.imgur.com/fWloXYv.png" alt="Vercel app persmission screen to connect to github"></p>
+<p>Now, once again I was asked to confirm the repo I wanted to deploy.  All good.</p>
+<p>And I get to a&hellip;. wait for it&hellip;. &ldquo;Error connecting to Vercel.&rdquo; Uh oh.<br>
+So I backed out and went to my AgilityCMS dashboard.  It looked like I had my site working but there was a dashboard and a lot of links to decipher.</p>
+<p>I clicked &lsquo;View Site&rsquo; expecting a preview URL on Vercel. Nope, I got a pop-up telling me &ldquo;Production Domain Not Set - Click below to manage your channels and setup a production domain.&rdquo; I hit the &ldquo;Manage Domain&rdquo; button in that pop up and got taken to a rather intimidating screen to &lsquo;add a domain&rsquo;.</p>
+<p><img src="https://i.imgur.com/7nFJBbH.png" alt="production domain not set alert"></p>
+<p>Meanwhile, I got the normal alert emails from new account spin up. The last one I got contained a list of my new preview URLs.  My mind says &lsquo;of course, DNS is hard and this is going to take a few minutes.&rsquo; I made some more coffee and waited. After caffeination achieved, I hit all 3 of the links in the emails&hellip;.
+and saw 404, 404 and a 404.</p>
+<h2 id="i-was-10-minutes-in-at-this-point">I was ~10 minutes in at this point.</h2>
+<p>I think I had been through 12 screens altogether, not counting Reddit.</p>
+<p>I went back to the &lsquo;add a domain&rsquo; button and attempted to configured my preview and live URLs.  It gave me the option of Custom or Vercel URLs, so I picked Vercel.</p>
+<p>I was thrown back to the screen that asks which repo I am trying to connect.  Like, what happened with the other deploy? But ok, no other option, so I tried to do it again. But I couldn&rsquo;t since that instance already exists.</p>
+<p>I looked at my Vercel account and there were the logs I was looking for. Highlighted were some warnings about <code>tailwind</code> and <code>url-loader</code> unmet dependencies (neither of which I know too well) but those weren&rsquo;t failures just warnings. Then is see it, Agility fails to load because of a missing GUID.</p>
+<p><img src="https://i.imgur.com/0TkfAgg.png" alt="Vercel Log showing warnings"></p>
+<h2 id="i-was-not-too-worried-yet">I was not too worried yet.</h2>
+<p>After all, deploys can fail for a lot of reasons and with all new accounts connected to a new github repo, failures happen.  That&rsquo;s life.</p>
+<p>I tried a redeploy. Only to get the exact same log with different time stamp.</p>
+<p>I am around 15 minutes in and about to try and research GUID and AgilityCMS. I stop myself and think &ldquo;ok, something went horribly wrong maybe because perhaps, Agility needed to pre-populate something to generate that GUID from an existing Vercel connection. By the way, &lsquo;stabbing in the dark&rsquo; guessing is not the best place to be when debugging.</p>
+<p>I decided then to just start over with Vercel.  So I delete the Vercel instance of the site.  Now I should be able to reattach my AgilityCMS and have it build anew.  I also deleted the repo on Github entirely for this to work.</p>
+<h2 id="then-i-tried-to-delete-my-instance-from-agiltycms">Then I tried to delete my instance from AgiltyCMS.</h2>
+<p>I could not.</p>
+<p>I tried for a few minutes to do this and just could not. 4 google and duckduckgo searches later and found nothing. There has to be a simple way I am overlooking, which makes me feel kinda dumb. That is the opposite of what the Reddit post promised me. I sat there about to open a support request when I stopped myself.</p>
+<p>I was a little more than 30 minutes in at this point and I still didn&rsquo;t have a site. This was supposed to be a simple, quick demo site. So I decided to bail on the whole thing and start over 100% from the original link.</p>
+<h2 id="exhale">Exhale</h2>
+<p>I closed all the tabs I had been working in.  I tried again. This time I had all accounts set up and permission-ed. I immediately ran into my account limit of 1 free site with AgilityCMS. No option on deleting and now I can not test a new one.</p>
+<p>So I am gave up on this approach.  Not the likely outcome the OP wanted me to have. I was frustrated and feeling a not the smartest to be honest.</p>
+<h2 id="breath-and-think-about-what-i-was-really-trying-to-accomplish">Breath and think about what I was really trying to accomplish.</h2>
+<p>I still wanted a site with Next.js to poke around at. So I built and deployed one.<br>
+Setting up my site locally, reading all the needed docs, making minor content edits and deploying it to Vercel took me <strong>15 minutes</strong> total. I had never, ever done any of that before this attempt either.<br>
+<a href="https://next-js-demo-site.vercel.app/">You can see that site here</a></p>
+<p>I felt really smart and accomplished after this step! Perhaps, in a way, that Reddit poster was right all along, just not about the AgiltyCMS part.</p>
+<h2 id="conclusion">Conclusion:</h2>
+<p>I took the day for myself so I could reflect on the valuable lessons of Veterans Day, of which there are many. If you want a great resource for history, I can not recommend a better source right now that <a href="https://www.youtube.com/channel/UC4sEmXUuWIFlxRIFBRV6VXQ">The History Guy on Youtube</a>.</p>
+<p>I also wanted a day to tinker and learn.  I learned a few things for sure:</p>
+<ul>
+<li>So far I love Next.js.</li>
+<li>Tech will fail sometimes and that is OK. Patience is a virtue after all and</li>
+<li>I do not know how to delete an instance from AgiltyCMS.</li>
+<li>You can not deploy a second instance to AgiltyCMS for free.</li>
+<li>Do not believe anything you read on Reddit that says something &ldquo;made me feel smart and efficient so fast.&rdquo;</li>
+</ul>
+
+            </div>
+            
+            <div class="post-comments">
+                
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        <footer class="footer text-center">
+<p>Copyright &copy; 2020 Dwayne McDaniel -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+    </body>
