@@ -92,10 +92,15 @@ I felt really smart and accomplished after this step! Perhaps, in a way, that Re
 I took the day for myself so I could reflect on the valuable lessons of Veterans Day, of which there are many. If you want a great resource for history, I can not recommend a better source right now that [The History Guy on Youtube](https://www.youtube.com/channel/UC4sEmXUuWIFlxRIFBRV6VXQ).  
 
 I also wanted a day to tinker and learn.  I learned a few things for sure:
-- So far I love Next.js. 
-- Tech will fail sometimes and that is OK. Patience is a virtue after all and 
-- I do not know how to delete an instance from AgiltyCMS. 
-- You can not deploy a second instance to AgiltyCMS for free.  
-- Do not believe anything you read on Reddit that says something "made me feel smart and efficient so fast."
+
+* So far I love Next.js. 
+
+* Tech will fail sometimes and that is OK. Patience is a virtue after all and 
+
+* I do not know how to delete an instance from AgiltyCMS. 
+
+* You can not deploy a second instance to AgiltyCMS for free.  
+
+* Do not believe anything you read on Reddit that says something "made me feel smart and efficient so fast."
 
 
