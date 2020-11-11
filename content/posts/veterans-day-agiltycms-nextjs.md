@@ -1,5 +1,5 @@
 ---
-title: "Veterans Day, testing out AgiltyCMS and manually deploying my first Netxt.js site anyhow"
+title: "Veterans Day, testing out AgilityCMS and manually deploying my first Netxt.js site anyhow"
 date: 2020-11-11T13:45:53-06:00
 ---
 
