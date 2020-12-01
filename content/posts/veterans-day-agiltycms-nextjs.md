@@ -1,6 +1,8 @@
 ---
-title: "Veterans Day, testing out AgilityCMS and manually deploying my first Netxt.js site anyhow"
-date: 2020-11-11T13:45:53-06:00
+title: >-
+  Veterans Day, testing out AgilityCMS and manually deploying my first Netxt.js
+  site anyhow
+date: '2020-11-11T13:45:53-06:00'
 ---
 
 I took most of Veterans Day off. I did not serve in the military myself, instead doing civil service through [Americorps](https://www.redcross.org/local/california/los-angeles/volunteer/americorps.html), but I am grateful for those who did go off to war and defend the ideals I get to enjoy. I like to review history of service on this day. Learning from history will hopefully help us all avoid mistakes in the future. So I canceled all my meeting and dedicated some time to reflection.  
@@ -101,6 +103,4 @@ I also wanted a day to tinker and learn.  I learned a few things for sure:
 
 * You can not deploy a second instance to AgiltyCMS for free.  
 
-* Do not believe anything you read on Reddit that says something "made me feel smart and efficient so fast."
-
-
+* Do not believe everything you read on Reddit that says something "made me feel smart and efficient so fast."
