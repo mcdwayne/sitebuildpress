@@ -1,7 +1,8 @@
 baseURL = "https://dwayne-mcdaniel.com"
 languageCode = "en"
-title = "Dwayne McDaniel's Personal Blog"
+title = "Dwayne McDaniel's Blog"
 theme = "hugo-theme-nix"
+
 
 
 [params]
