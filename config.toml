@@ -10,7 +10,7 @@ theme = "hugo-theme-nix"
   HeaderUsername = "mcdwayne"
   HeaderHostname = "dwaynemcdaniel"
   About1 = "Dwayne McDaniel is an Open Source enthusiast focused on helping people understand and use the full power of OSS."
-  About3 = "Read my personal tech blog"
+  About3 = "Read the blog"
   Welcomemsg = """
 						I only hope I can inspire folks the way I have been inspired by so many others. 
 -- Dwayne
