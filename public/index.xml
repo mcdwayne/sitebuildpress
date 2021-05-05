@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dwayne McDaniel&#39;s Personal Blog</title>
+    <title>Dwayne McDaniel&#39;s Blog</title>
     <link>https://dwayne-mcdaniel.com/</link>
-    <description>Recent content on Dwayne McDaniel&#39;s Personal Blog</description>
+    <description>Recent content on Dwayne McDaniel&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Sep 2019 09:40:31 -0700</lastBuildDate>
-    
-	<atom:link href="https://dwayne-mcdaniel.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 11 Nov 2020 13:45:53 -0600</lastBuildDate><atom:link href="https://dwayne-mcdaniel.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Veterans Day, testing out AgiltyCMS and manually deploying my first Netxt.js site anyhow</title>
+      <title>Veterans Day, testing out AgilityCMS and manually deploying my first Netxt.js site anyhow</title>
       <link>https://dwayne-mcdaniel.com/posts/veterans-day-agiltycms-nextjs/</link>
       <pubDate>Wed, 11 Nov 2020 13:45:53 -0600</pubDate>
       
@@ -50,25 +46,6 @@ KevinThull.com - A glorious inside joke in the Drupal community to build a Githu
       
       <guid>https://dwayne-mcdaniel.com/posts/old-friends-are-the-best/</guid>
       <description>As I was on my way to PressNomics I was waylaid by the airline industry mismanagement of things and got stranded overnight in Denver. One of the best benefits of being as old as I am though is that I have made a lot of friends and acquaintances over the years pretty much all over the country and certain parts of the world. So, I thought &amp;ldquo;who do I know in Denver who might let me crash with them?</description>
-    </item>
-    
-    <item>
-      <title>Welcome to my new blog</title>
-      <link>https://dwayne-mcdaniel.com/posts/first-new-post/</link>
-      <pubDate>Mon, 09 Sep 2019 21:56:16 -0700</pubDate>
-      
-      <guid>https://dwayne-mcdaniel.com/posts/first-new-post/</guid>
-      <description>You might be wondering why I built this site. And if you know me, you might be wondering why I am starting yet another blog. I hope to answer those fully in this first post and there are basically 2 main reasons.
-1. I wanted to build a new site based on a static site generator I have been fascinated by JAMStack for a long while now. There is fundamental question about &amp;ldquo;do we need a DB for most use cases anymore?</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://dwayne-mcdaniel.com/portfolio/</link>
-      <pubDate>Sun, 08 Sep 2019 09:40:31 -0700</pubDate>
-      
-      <guid>https://dwayne-mcdaniel.com/portfolio/</guid>
-      <description></description>
     </item>
     
   </channel>
